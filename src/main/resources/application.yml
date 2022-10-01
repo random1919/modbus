@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  mqtt:
+    username: admin
+    password: public
+    host-url: tcp://172.16.71.150:1883
+    client-id: mq-dky-0813
+    default-topic: default_topic
+    timeout: 100
+    keepalive: 100
